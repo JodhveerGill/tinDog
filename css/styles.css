@@ -13,9 +13,25 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
 }
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 /* Navbar Brand */
@@ -48,13 +64,19 @@ h1 {
 /* Front page Image */
 .title-img {
   width: 60%;
-  transform: rotate(25deg);
+  transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
 }
 
 /* Features Section */
 #features {
-  padding: 9% 13%;
+  padding: 7% 13%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
+
 .features-box {
   text-align: center;
   padding: 3%;
@@ -76,4 +98,40 @@ h1 {
   color: #8f8f8f;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-image {
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-box {
+  padding: 3% 2%;
 }
